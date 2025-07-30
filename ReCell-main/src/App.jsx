@@ -11,6 +11,8 @@ export default function App() {
         <Route path="/" element={<LandingPage />} />
         <Route path="/signup" element={<SignUpForm />} />
         <Route path="/login" element={<LoginForm />} />
+        <Route path="/" element={<Dashboard />} />
+        <Route path="/reviewer" element={<ReviewerDashboard />} />
 
       </Routes>
     </Router>
